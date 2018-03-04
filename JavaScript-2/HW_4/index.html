@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="java-script.png">
+  <link rel="stylesheet" href="style.css">
+  <title>jQuery HW-4</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="content">
+
+    <section>
+      <ul class="list">
+        <li class="list_item not_active active" data-tab="item-1">Первая вкладка</li>
+        <li class="list_item not_active" data-tab="item-2">Вторая вкладка</li>
+        <li class="list_item not_active" data-tab="item-3">Третья вкладка</li>
+      </ul>
+      <article class="article active" id="item-1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+      </article>
+      <article class="article" id="item-2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+      </article>
+      <article class="article" id="item-3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsum, perspiciatis libero dolorem praesentium hic esse dolorum ea, laudantium. Et soluta unde ut quisquam cum magnam sit fugiat voluptatum aut.
+      </article>
+
+    </section>
+
+    <button class="fill_form">Заполнить форму</button>
+
+    <form class="form">
+      <fieldset>
+        <input class="form__field" name="name" placeholder="Иван Иванов">
+        <input class="form__field" name="phone" placeholder="+7(000)000-0000">
+        <input class="form__field" name="email" placeholder="mail@yourmail.ru">
+        <select class="form__field" name="city">
+          <option>Ваш город</option>
+        </select>
+        <input class="form__field city" name="city" type="select" list="availableCities" data-list="availableCities" placeholder="Ваш город">
+        <textarea name="text" rows="8" cols="80"></textarea>
+        <button class="submit" value="submit">Отправить</button>
+      </fieldset>
+    </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
