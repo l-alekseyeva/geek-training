@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 30px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+#cart {
+  margin-top: 30px;
+}
+
+button {
+  margin-left: 30px;
+  padding: 3px;
+}
+
+fieldset {
+  margin-top: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[name="name"]{
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+button[type="submit"] {
+  margin-top: 5px;
+}
+
+#toModerate {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#toModerate > button {
+  margin-top: 10px;
+  width: 150px;
+}
