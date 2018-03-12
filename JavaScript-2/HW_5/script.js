@@ -184,7 +184,6 @@
     //         success: function(data) {
     //           data.forEach(function(review) {
     //             this.checked = true;
-    //             console.log('jnghfdktyj');
     //           });
     //
     //         }
