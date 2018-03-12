@@ -3,18 +3,40 @@
     {
       "id": "1",
       "price": "200",
-      "name": "Coca-Cola"
+      "name": "Coca-Cola",
+      "img": "img/coca-cola.jpg"
     },
     {
       "id": "2",
       "price": "100",
-      "name": "Fanta"
+      "name": "Fanta",
+      "img": "img/fanta.jpg"
     },
     {
       "id": "3",
       "price": "150",
-      "name": "Sprite"
+      "name": "Sprite",
+      "img": "img/sprite.jpg"
     }
   ],
-  "cart": []
+  "cart": [],
+  "review": [
+    {
+      "name": "ддлодл",
+      "text": "Рплыдлаолрываыв",
+      "checked": true,
+      "id": 1
+    },
+    {
+      "name": "qweqweqwe",
+      "text": "kjhk;h;kjshdvkajshdvkjhsdKV",
+      "checked": false,
+      "id": 2
+    },
+    {
+      "text": "",
+      "checked": false,
+      "id": 3
+    }
+  ]
 }
